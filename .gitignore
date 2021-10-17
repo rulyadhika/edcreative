@@ -127,3 +127,6 @@ nb-configuration.xml
 
 # ck editor
 !/public/src/plugins/ckeditor/*
+
+# ckfinder
+/public/src/plugins/ckfinder/
