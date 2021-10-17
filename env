@@ -14,13 +14,13 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = production
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+app.baseURL = ''
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
@@ -36,11 +36,11 @@
 # app.cookieSecure = false
 # app.cookieHTTPOnly = false
 
-# app.CSRFProtection  = false
-# app.CSRFTokenName   = 'csrf_test_name'
-# app.CSRFCookieName  = 'csrf_cookie_name'
-# app.CSRFExpire      = 7200
-# app.CSRFRegenerate  = true
+app.CSRFProtection  = true
+app.CSRFTokenName   = 'csrf_token'
+app.CSRFCookieName  = 'csrf_cookie'
+app.CSRFExpire      = 7200
+app.CSRFRegenerate  = true
 # app.CSRFExcludeURIs = []
 
 # app.CSPEnabled = false
@@ -49,11 +49,11 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
+database.default.hostname = localhost
+database.default.database = ci4
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
 
 # database.tests.hostname = localhost
 # database.tests.database = ci4
